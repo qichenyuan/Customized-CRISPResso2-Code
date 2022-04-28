@@ -1,5 +1,4 @@
 [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/pinellolab/crispresso2.svg)](https://hub.docker.com/r/pinellolab/crispresso2)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/pinellolab/crispresso2.svg)](https://hub.docker.com/r/pinellolab/crispresso2)
 
 # Customized-CRISPResso2-Code
 CRISPResso2 NGS data analysis with customized docker script 
