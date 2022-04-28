@@ -1,3 +1,6 @@
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/pinellolab/crispresso2.svg)](https://hub.docker.com/r/pinellolab/crispresso2)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/pinellolab/crispresso2.svg)](https://hub.docker.com/r/pinellolab/crispresso2)
+
 # Customized-CRISPResso2-Code
 CRISPResso2 NGS data analysis with customized docker script 
 Referring to the ‘Source on Github’ (https://github.com/pinellolab/CRISPResso2), the Docker containerization system was installed and run using the following customized code templates based on the available script provided by CRISPResso2. Three biological replicates prepared for Amplicon-EZ were named ‘Rep1’ (as shown in the following codes), ‘Rep2’, ‘Rep3’, respectively. Multiple powershells (Windows) can be opened to run different scripts simultaneously. The ‘NNNNNNNNNNNNNNNNNNNN’ part of the following script can be replaced by the sequence of interest for customized analysis. The sequence of ‘guide_seq’ should match the corresponding sequence in ‘amplicon_seq’. 
