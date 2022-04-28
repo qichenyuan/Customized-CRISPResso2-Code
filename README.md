@@ -9,7 +9,7 @@ Navigate to the directory with FASTQ data files using command line:
 cd "path of the directory"
 ```
 
-#Base editing: 
+##Base editing: 
 ```
 docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 Rep1_R1_001.fastq --fastq_r2 Rep1_R2_001.fastq --amplicon_seq NNNNNNNNNNNNNNNNNNNN --guide_seq NNNNNNNNNNNNNNNNNNNN --quantification_window_size 10 --quantification_window_center -10 --base_editor_output
 ```
