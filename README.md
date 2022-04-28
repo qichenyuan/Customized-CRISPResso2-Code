@@ -19,12 +19,12 @@ docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq
 docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 Rep1_R1_001.fastq --fastq_r2 Rep1_R2_001.fastq --amplicon_seq NNNNNNNNNNNNNNNNNNNN --guide_seq NNNNNNNNNNNNNNNNNNNN -n nhej
 ```
 
-#### Prime editing (insertion or deletion): 
+### Prime editing (insertion or deletion): 
 ```
 docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 Rep1_R1_001.fastq --fastq_r2 Rep1_R2_001.fastq --amplicon_seq NNNNNNNNNNNNNNNNNNNN --expected_hdr_amplicon_seq NNNNNNNNNNNNNNNNNNNN --guide_seq NNNNNNNNNNNNNNNNNNNN  --discard_indel_reads 
 ```
 
-##### Prime editing (substitution): 
+### Prime editing (substitution): 
 ```
 docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 Rep1_R1_001.fastq --fastq_r2 Rep1_R2_001.fastq --amplicon_seq  NNNNNNNNNNNNNNNNNNNN --prime_editing_pegRNA_spacer_seq NNNNNNNNNNNNNNNNNNNN --prime_editing_pegRNA_extension_seq NNNNNNNNNNNNNNNNNNNN --prime_editing_nicking_guide_seq NNNNNNNNNNNNNNNNNNNN --prime_editing_pegRNA_scaffold_seq NNNNNNNNNNNNNNNNNNNN
 ```
